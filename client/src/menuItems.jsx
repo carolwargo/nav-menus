@@ -21,10 +21,9 @@ export const menuItems = [
           },
           {
             title: 'Backend',
-            url: 'backend',
             submenu: [
               {
-                title: 'Node',
+                title: 'NodeJS',
                 url: 'node',
               },
               {
@@ -44,5 +43,15 @@ export const menuItems = [
   {
     title: 'About',
     url: '/about',
+    submenu: [
+      {
+        title: 'Who we are',
+        url: 'who-we-are',
+      },
+      {
+        title: 'Our values',
+        url: 'our-values',
+      },
+    ],
   },
 ];
